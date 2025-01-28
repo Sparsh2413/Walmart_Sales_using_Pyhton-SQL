@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-![Project Pipeline]()
+![Project Pipeline](https://github.com/Sparsh2413/Walmart_Sales_using_Pyhton-SQL/blob/main/walmart_project-piplelines.png)
 
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
@@ -23,7 +23,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ### 3. Download Walmart Sales Data
    - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
-   - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets) by Najir0123.
+   - **Dataset Link**: [Walmart Sales Dataset](https://github.com/Sparsh2413/Walmart_Sales_using_Pyhton-SQL/blob/main/Walmart.csv)
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
 
 ### 4. Install Required Libraries and Load Data
@@ -56,7 +56,8 @@ This project is an end-to-end data analysis solution designed to extract critica
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
      - Revenue trends across branches and categories.
-```sq
+     - Example Query:-
+```sql
 SELECT 
 	city,
 	category,
@@ -66,8 +67,6 @@ SELECT
 FROM walmart
 GROUP BY 1, 2
 ```
-    
-    
      - Identifying best-selling product categories.
      - Sales performance by time, city, and payment method.
      - Analyzing peak sales periods and customer buying patterns.
